@@ -25,3 +25,22 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+ext {
+    //Sdk and tools
+    compile_sdk_version = 26
+    min_sdk_version = 23
+    target_sdk_version = 26
+    coroutines_version='0.20'
+    // App dependencies
+    constraint_version = '1.1.0'
+    support_version = '26.1.0'
+    //App widget
+    banner_version = '1.4.10'
+    //open frame
+    leakcanary_version = '1.5.4'
+    utilcode_version = '1.9.12'
+    glide_version = '4.3.1'
+    retrofit_version = '2.4.0'
+    brvah_version = '2.9.34'
+    refresh_version='1.1.0-alpha-5'
+}

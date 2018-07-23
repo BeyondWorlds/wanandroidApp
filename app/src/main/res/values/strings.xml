@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">WanAndroid</string>
+    <string name="home">Home</string>
+    <string name="type">Type</string>
+    <string name="my">My</string>
+
+    <string name="login_account_tint">Please enter user name</string>
+    <string name="login_password_tint">Please enter password</string>
+    <string name="login_in">Login</string>
+    <string name="register">Sign Up</string>
+
+    <string name="password_confirm_not_empty">Confirm password cannot be empty.</string>
+    <string name="password_confirm_diff">Confirm password is not the same.</string>
+    <string name="password_not_empty">Password cannot be empty.</string>
+    <string name="password_length_short">Password length can not less than six.</string>
+    <string name="username_not_empty">Username cannot be empty.</string>
+    <string name="logout">Logout</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
